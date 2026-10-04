@@ -1,0 +1,48 @@
+{
+  "threshold": 0.51,
+  "always_no_stroke_baseline_accuracy": 0.9510763209393347,
+  "results": {
+    "Random Forest (tuned, thr 0.50)": {
+      "accuracy": 0.662426614481409,
+      "precision": 0.10875331564986737,
+      "recall": 0.82,
+      "f1": 0.1920374707259953,
+      "roc_auc": 0.8009567901234568
+    },
+    "XGBoost (tuned, thr 0.50)": {
+      "accuracy": 0.6917808219178082,
+      "precision": 0.12034383954154727,
+      "recall": 0.84,
+      "f1": 0.21052631578947367,
+      "roc_auc": 0.8113374485596708
+    },
+    "Logistic Regression (tuned, thr 0.50)": {
+      "accuracy": 0.7367906066536204,
+      "precision": 0.13377926421404682,
+      "recall": 0.8,
+      "f1": 0.22922636103151864,
+      "roc_auc": 0.8404938271604938
+    },
+    "Ensemble (untuned, thr 0.50)": {
+      "accuracy": 0.8277886497064579,
+      "precision": 0.16489361702127658,
+      "recall": 0.62,
+      "f1": 0.2605042016806723,
+      "roc_auc": 0.8129218106995885
+    },
+    "Ensemble (tuned, thr 0.50)": {
+      "accuracy": 0.6986301369863014,
+      "precision": 0.12058823529411765,
+      "recall": 0.82,
+      "f1": 0.21025641025641026,
+      "roc_auc": 0.8337037037037037
+    },
+    "Ensemble (tuned, thr 0.51)  <- FINAL": {
+      "accuracy": 0.7035225048923679,
+      "precision": 0.12238805970149254,
+      "recall": 0.82,
+      "f1": 0.21298701298701297,
+      "roc_auc": 0.8337037037037037
+    }
+  }
+}
